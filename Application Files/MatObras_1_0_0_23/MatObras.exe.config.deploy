@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="MatObras.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+    <userSettings>
+        <MatObras.My.MySettings>
+            <setting name="ruta_existencia" serializeAs="String">
+                <value>M:\TECNICA\DOCUMENTOS\Mis Planillas\PRESUPUESTOS\EXISTENCIA VALORIZADA.xlsb</value>
+            </setting>
+            <setting name="hoja_obras" serializeAs="String">
+                <value>OBRAS ELECTRICO AUTORIZADAS</value>
+            </setting>
+            <setting name="hoja_stock" serializeAs="String">
+                <value>STOCK DEPOSITO ELECTRICO</value>
+            </setting>
+            <setting name="columna_obras" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="columna_ID_producto" serializeAs="String">
+                <value>4</value>
+            </setting>
+            <setting name="columna_descripcion_producto" serializeAs="String">
+                <value>3</value>
+            </setting>
+            <setting name="columna_cant_pres" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="columna_cant_salida" serializeAs="String">
+                <value>8</value>
+            </setting>
+            <setting name="columna_stock_almacen" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="columna_stock_id_producto" serializeAs="String">
+                <value>2</value>
+            </setting>
+            <setting name="columna_stock" serializeAs="String">
+                <value>9</value>
+            </setting>
+            <setting name="ruta_bdd" serializeAs="String">
+                <value>M:\TECNICA\DOCUMENTOS\PROGRAMACIÓN\Configuración\BDD\notas_almacen.mdb</value>
+            </setting>
+            <setting name="ruta_obras" serializeAs="String">
+                <value>M:\TECNICA\OBRAS\nuevosss.mdb</value>
+            </setting>
+            <setting name="stock_proyectado" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="bdd_analisis" serializeAs="String">
+                <value>M:\TECNICA\DOCUMENTOS\PROGRAMACIÓN\Configuración\BDD\notas_analisis.MDB</value>
+            </setting>
+        </MatObras.My.MySettings>
+    </userSettings>
+</configuration>
